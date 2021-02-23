@@ -1,0 +1,99 @@
+body {
+    background: greenyellow;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: #c8f08c;
+    background-image: linear-gradient(115deg, rgba(190, 241, 122, 0.8), rgba(233, 240, 238, 0.7)), url(pexels-anna-nekrashevich-6801641.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+h3 {
+    font-weight: 600;
+    text-align: center;
+    margin: 0 0 1.2rem 0;
+    border-bottom: 3px solid green;
+    padding: 0.3rem 0 0.3rem 0 ;
+    background:rgb(149, 204, 147); 
+    margin-right: 0.5rem;
+}
+
+
+label {
+    align-items: center;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+input, button, select {
+    margin: 0;
+    font-family: inherit;
+    line-height: inherit;
+    display: inline-flex;
+    margin-left: 0.2rem;
+    min-height: 1.5rem;
+}
+button {
+    border: none;
+    border-radius: 2px;
+    padding: 0.3rem;
+    margin: 1.5rem auto 0.7rem auto;
+    display: block;
+    width: 50%;
+    background: rgb(149, 204, 147);
+    font-size: inherit;
+    border-bottom: 3px solid green;
+}
+.container {
+    display: block;
+    width: 45%;
+    margin: 4.5rem auto auto auto;
+    border: 1px solid rgb(157, 233, 157);
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    border-radius: 16px;
+    background-color: rgb(230, 241, 211);
+   
+}
+
+.form-group {
+    display: block;
+    margin: 0 1.5rem 0 0;
+    margin-left: 1.2rem;
+
+}
+
+label, p {
+   display: inline-block;
+    text-align: right;
+    vertical-align: baseline;
+    padding: 1px;
+}
+.street {
+    display: inline-block;
+    margin-left: 3.71rem;
+    min-height: 1.5rem;
+
+}
+.input-radio, .input-checkbox {
+    display: inline-block;
+    margin-left: 0.2rem;
+    min-height: 0.7rem;
+    min-width: 0.7rem;
+    vertical-align: baseline;
+}
+
